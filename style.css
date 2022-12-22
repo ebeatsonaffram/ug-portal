@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    color: #485A78;}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+    
+}
+
+section .imgBx {
+    position: relative;
+    width: 59%;
+    height: 150%;
+}
+
+section .imgBx::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #cb63, #eeff);
+    z-index: -1;
+    mix-blend-mode: screen;
+}
+
+section .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#txt   {
+    position: relative;
+    text-shadow: 3px 3px #000;
+    font-size:xx-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 0%;
+
+}
+
+h2 {
+    background: linear-gradient(225deg, #ebdcaa, #435974);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: left;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+.contentBx {
+    justify-content: left;
+    width: 41%;
+    height: 100vh;
+    text-align: left;
+}
+
+.formBx img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.signin {
+    font-size: x-large;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    font-weight: lighter;
+}
+
+.subcontainer {
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+section .contentBx .inputBx span {
+    display: block;
+    font-size: 0.95rem;
+    line-height: 1.25;
+    color: #4E5154;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+section .contentBx .inputBx input {
+    width: 85%;
+    padding: 0.75rem 1rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4E5154;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 1px solid #BABFC7;
+    border-radius: 0.25rem;
+    margin-left: 20px;
+}
+
+.Box {
+    text-align: left;
+}
+
+ .retrieve{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-left: 40px;
+}
